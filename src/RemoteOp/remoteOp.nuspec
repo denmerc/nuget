@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PxOps.RemoteOp</id>
+    <version>1.0.0</version>
+    <title>PxOps Agent</title>
+    <authors>Dennis Mercado</authors>
+    <owners>APL Engineering</owners>
+    <licenseUrl>http://wwww.advancedpricinglogic.com</licenseUrl>
+    <projectUrl>http://wwww.advancedpricinglogic.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>nuspec for remote script execution to Fake.Deploy agent on RD app servers</description>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="./deploy.fsx" target="" />
+    <file src="./lib/FakeLib.dll" target="lib\" />
+    <file src="./lib/FSharp.Core.dll" target="lib\" />
+  </files>
+</package>
